@@ -1,0 +1,32 @@
+{
+    "name": "Pirate #9",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "8.jpg",
+    "attributes": [
+        {
+            "trait_type": "vest",
+            "value": "green jacket"
+        },
+        {
+            "trait_type": "hair",
+            "value": "green bandana"
+        },
+        {
+            "trait_type": "accesory",
+            "value": "earing"
+        },
+        {
+            "trait_type": "face",
+            "value": "full beard"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "8.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

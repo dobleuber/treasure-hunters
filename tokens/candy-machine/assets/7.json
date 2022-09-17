@@ -1,0 +1,28 @@
+{
+    "name": "Pirate #8",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "7.jpg",
+    "attributes": [
+        {
+            "trait_type": "vest",
+            "value": "red jacket"
+        },
+        {
+            "trait_type": "hair",
+            "value": "black hat"
+        },
+        {
+            "trait_type": "accesory",
+            "value": "red tie"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "7.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

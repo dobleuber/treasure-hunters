@@ -1,0 +1,28 @@
+{
+    "name": "Pirate #5",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "4.jpg",
+    "attributes": [
+        {
+            "trait_type": "vest",
+            "value": "blue jacket"
+        },
+        {
+            "trait_type": "hair",
+            "value": "brown"
+        },
+        {
+            "trait_type": "accesory",
+            "value": "red head tie"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "4.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

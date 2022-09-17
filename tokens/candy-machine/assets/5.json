@@ -1,0 +1,28 @@
+{
+    "name": "Pirate #6",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "5.jpg",
+    "attributes": [
+        {
+            "trait_type": "vest",
+            "value": "black jacket"
+        },
+        {
+            "trait_type": "face",
+            "value": "full beard"
+        },
+        {
+            "trait_type": "accesory",
+            "value": "black hat"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "5.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

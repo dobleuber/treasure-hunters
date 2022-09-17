@@ -1,0 +1,14 @@
+{
+    "name": "Pirate Avatars",
+    "description": "A collection of Avatars of Pirates",
+    "image": "collection.jpg",
+    "attributes": [],
+    "properties": {
+        "files": [
+            {
+                "uri": "collection.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

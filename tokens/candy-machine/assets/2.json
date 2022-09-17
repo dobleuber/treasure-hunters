@@ -1,0 +1,28 @@
+{
+    "name": "Pirate #3",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "2.jpg",
+    "attributes": [
+        {
+            "trait_type": "vest",
+            "value": "gray jacket"
+        },
+        {
+            "trait_type": "hair",
+            "value": "brown hat"
+        },
+        {
+            "trait_type": "accesory",
+            "value": "black tie"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "2.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}

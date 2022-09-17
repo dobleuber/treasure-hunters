@@ -1,0 +1,28 @@
+{
+    "name": "Pirate #2",
+    "symbol": "PRT",
+    "description": "A famous treasure hunter.",
+    "image": "1.jpg",
+    "attributes": [
+        {
+            "trait_type": "accessory",
+            "value": "pipe"
+        },
+        {
+            "trait_type": "hair",
+            "value": "red bandana"
+        },
+        {
+            "trait_type": "facial",
+            "value": "beard"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "1.jpg",
+                "type": "image/jpg"
+            }
+        ]
+    }
+}
