@@ -7,6 +7,7 @@ import { MouseEventHandler, useCallback, useEffect, useMemo, useState } from 're
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { PublicKey } from '@solana/web3.js'
 import { Metaplex, walletAdapterIdentity } from '@metaplex-foundation/js'
+import { useRouter } from 'next/router'
 
 interface NewMintProps {
     mint: PublicKey
@@ -17,10 +18,11 @@ const NewMint: NextPage<NewMintProps> = ({mint}) => {
   const {connection} = useConnection()
   const [metadata, setMetadata] = useState<any>()
   const {connected} = walletAdapter
+  const router = useRouter()
 
   const handleClick: MouseEventHandler<HTMLButtonElement> = useCallback( async event => {
-    
-  }, [])
+    router.push(`/stake?mint=${mint}&imageSrc=${metadata?.image}`)
+  }, [router, mint, metadata])
 
   const metaplex = useMemo(() => Metaplex
     .make(connection)

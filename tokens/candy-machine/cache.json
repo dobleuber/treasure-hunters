@@ -1,88 +1,88 @@
 {
   "program": {
-    "candyMachine": "EKfpoXfrPf2bdhkXRVZyVbPru1zPh3SxbMbnvX9hbUEc",
-    "candyMachineCreator": "EB3tqc6VZm3L93oYaf7z8cFf7ZTL5HvJ79emiZiEbi5H",
-    "collectionMint": "A16ngQfG1zW61TyDoYwq6LoxGKyST8gHC8iwHbLzVRKt"
+    "candyMachine": "AR29zYvhbEDhMgTT6DNi96LEuVRPqHuxirsePsCvp8yH",
+    "candyMachineCreator": "yG4aTtyVupYCtmEEK88d6dJBFuNZXP2KC9uQAvoQf77",
+    "collectionMint": "AwLCvag3azJVfUdHBmGq1v1jhRCe9g8SnpR97yABQboU"
   },
   "items": {
     "-1": {
       "name": "Pirate Avatars",
       "image_hash": "e54609907beb6297ec9fb33b29a185db814f7a6f377b40c4666c5a032b3b1d25",
-      "image_link": "https://arweave.net/mWG_zgixrZ6lFxvGCG51ZObTf5repDr3p5DsAwYdxOI?ext=jpg",
+      "image_link": "https://arweave.net/SFTTsLLNK17JRuIaRLLPytAwTH2XIMELTo5EiUHjpFI?ext=jpg",
       "metadata_hash": "9e66a10f22ec0e4f11a6678b9468dc367289e82eede86e5fdd4d13b7fe16f22e",
-      "metadata_link": "https://arweave.net/RIrT_jp9TvZJqz6NYGy2sghWX1G0IbvZMR8WsJQG65E",
+      "metadata_link": "https://arweave.net/pM7c9vqEWNvLdSIueLRdmysdw8v85gJY5BdQyJ_TS_Q",
       "onChain": true
     },
     "0": {
       "name": "Pirate #1",
       "image_hash": "ddaa2fc4454244a19d6f99bcd16ec292981c49cfbe28b01fe07077fe3d5d4e5e",
-      "image_link": "https://arweave.net/8RGD9iE4N9Jpu1-8HRK-dd2AcTeVqmRYVvMTn0FWL98?ext=jpg",
+      "image_link": "https://arweave.net/FKdlujaYDp_NcwDp_2q1L2LZnQQGSgR1JlEk8Jhf6h4?ext=jpg",
       "metadata_hash": "247481e5ffef57665eb8593aa8291ff070bf43b0808709049cb246494b88ce34",
-      "metadata_link": "https://arweave.net/eooHC-hp9IpRhmZUoENrKveSrSOf1qUNY1wbl5GqZiI",
+      "metadata_link": "https://arweave.net/ZvwCzOr-c0IntNPQ_zWC1ct033ChxbBiXuL0P9FzPyE",
       "onChain": true
     },
     "1": {
       "name": "Pirate #2",
       "image_hash": "72955d948d43b75c4233982a772f150f3a7322e4905076a6d12788e2fdc88f4b",
-      "image_link": "https://arweave.net/hQ-i01e_Cd_QEhnU77gNmtnFKxr4tITWD6Bv1MkumQQ?ext=jpg",
+      "image_link": "https://arweave.net/yHqJNAGuejCXEAjeLIpbAfNaW9geovw3DVdxhqdEsvg?ext=jpg",
       "metadata_hash": "ab18179ff383874b3ad4939d935c693f80cf904daf2b5e951dd40033dc807cc0",
-      "metadata_link": "https://arweave.net/nZ7MIN20Vv4YW-tv41FHICzSXIXSgjrf_DbMFfkH6SM",
+      "metadata_link": "https://arweave.net/Odvi860eCFd-F_ikbl8TJXJhg0p8kLRn8WGKQ1rH-7M",
       "onChain": true
     },
     "2": {
       "name": "Pirate #3",
       "image_hash": "eb82bf1a86ab79475defac825eb30e16b772f64223686a484fd85b968dc4520d",
-      "image_link": "https://arweave.net/cmFkkj2NyZOzI74qxD_ECRHNlkzcKlTDyCraGBJFwJ4?ext=jpg",
+      "image_link": "https://arweave.net/euAYMKBP2hoOiBtCYGIQyEyykBf4Cpda_V78XINZAFA?ext=jpg",
       "metadata_hash": "9ff236d9ebe1d8d13870adb1ce2570e453b3a88de64b9a4a400bc65c0754b6dc",
-      "metadata_link": "https://arweave.net/Kr57O5gRNokKpN6g8apKeo6AJq6C27ZkUphH44a7NMc",
+      "metadata_link": "https://arweave.net/X5nV8Zh15S5B2IS180bEAj88wMpMNtEV6CdzL8cC1vg",
       "onChain": true
     },
     "3": {
       "name": "Pirate #4",
       "image_hash": "f36ddd842efcafaf76c7ef7519195cfae68b97111a89925a3b4b5f2b95606e54",
-      "image_link": "https://arweave.net/qiaOP_fQ6sJ5Qk_vFwRq7sECtcN9WUI_SRY-zkNBpFk?ext=jpg",
+      "image_link": "https://arweave.net/HiMf4pAZj4PQNM4iqvPsmhk_azAt5MRfxWYIgRhC-nM?ext=jpg",
       "metadata_hash": "acf4524f335ebb98121e07fa146367ac01adc17d805de3a266a16fd999e352f0",
-      "metadata_link": "https://arweave.net/0fWJpVYTe-044huBvgDuuO-X-83CfZT0kxtqoKUP1dM",
+      "metadata_link": "https://arweave.net/-6KGwLQub0SIZw6ymx3IFh0kAh4ODA2pgtECY_Ma82k",
       "onChain": true
     },
     "4": {
       "name": "Pirate #5",
       "image_hash": "11923055752a0678961935dfdb0d7ebe26b2a154ff4b893c0b472c8092255ea4",
-      "image_link": "https://arweave.net/-C6H9iHfpvT1pEGvaHSBnYN2J9xaxT_cIyQMLM_lSts?ext=jpg",
+      "image_link": "https://arweave.net/vDMRBnRvNoNsXt5ol7875n2qbn6Z0VyK9nKhxQAlU3E?ext=jpg",
       "metadata_hash": "b1e0bbc1d748164e8b4d4484db1b50d1b2230b66b3da90a9b4352173f6d9eca6",
-      "metadata_link": "https://arweave.net/YLAu7Kh1QI5jhjW7dUYuQBhfRBuNS2_MzdxpFqTTJbM",
+      "metadata_link": "https://arweave.net/bVIOYC4YDQiPY6U7xGBUl-pOn91iN6X_4_RaKR8VqPA",
       "onChain": true
     },
     "5": {
       "name": "Pirate #6",
       "image_hash": "6bb437a60186635d56887f3a75f7eb654c047e1daf209598d1a28132f7dc8193",
-      "image_link": "https://arweave.net/5quETuc3X9QfYGjkstB8YjWw--8KA2kDOiPguQlOxUc?ext=jpg",
+      "image_link": "https://arweave.net/gWYyt7J-vHD6HnWnTFfuOh8hlkcSEjPWD2JOnS4fzeg?ext=jpg",
       "metadata_hash": "bbf4b346ea5a040ee91d16a0fd00a14ff01e82fe1e5168a919deaa72fc4a587e",
-      "metadata_link": "https://arweave.net/1x6Hk6Fvrx6gMAf7yJeCV9HNWPEqnOh4DLLB9dIxJ7c",
+      "metadata_link": "https://arweave.net/b9dfHGSuZo61mF-w85SDGl1AWjj5y6BBKaf13KTWfJ0",
       "onChain": true
     },
     "6": {
       "name": "Pirate #7",
       "image_hash": "320c03c7233ad3cbf4d2947803c80c96d0d0a1adb7c17d5eed1bfd61d4f661a0",
-      "image_link": "https://arweave.net/oWS9R8qLBzqj6utYaXtIfeEIN2xJ16LC-MOhrDUF_50?ext=jpg",
+      "image_link": "https://arweave.net/dcWh21TA-S9BJp5rjTSpQ_x0s-sBTeT11nUhlP-7scU?ext=jpg",
       "metadata_hash": "2ff456038d67466c1382feb6d190c5e65136fbd10f2e25ca06b120fb143926af",
-      "metadata_link": "https://arweave.net/BIEZeIGQk6vJtvcarJ4iO_dRKAyxgUJLax_BjeokbNo",
+      "metadata_link": "https://arweave.net/hfu4_HdAzhTj_QSPwRERFk_edF4Mqo-dxySUIk9htT0",
       "onChain": true
     },
     "7": {
       "name": "Pirate #8",
       "image_hash": "34188059c9d11e3bb9b40d6c749352901e30e7572f8dac3978c532a3ff7e9f74",
-      "image_link": "https://arweave.net/ve17-4Ni4BgMYmLGVfyJUY6TYsRyvEPOPmA-AjpkceI?ext=jpg",
+      "image_link": "https://arweave.net/EgsqZ02a7C5gE2OnY5wCx9ze81qOg2q6a2_dICWucDA?ext=jpg",
       "metadata_hash": "3fe66ce65fdd24000f99a4c5160217343d6d0a97f6d32565b840f47e9b8cccac",
-      "metadata_link": "https://arweave.net/PHo1nRVoo3z5baMR6lyJIWPUPHWOTdzml09hQ_U2ssE",
+      "metadata_link": "https://arweave.net/PQu_XYHb7LqZVxTktnYl4WcKfDja4rBgztaskAPtfh8",
       "onChain": true
     },
     "8": {
       "name": "Pirate #9",
       "image_hash": "65a4d77c89ad35ddbd1a3bf6b998e4ee3aff7b7a2ad1ec2af791dfcf32ca2827",
-      "image_link": "https://arweave.net/SuSiv0t0fWjTFDmXZKV7AwPJMT61c1eOCYnVI4iCVOc?ext=jpg",
+      "image_link": "https://arweave.net/AniKpbtCh8lqOG79mxU2u2Jmp7CM8mQ_ZpDD1kNq3Yg?ext=jpg",
       "metadata_hash": "d869ce9772f3fa84bcfe8de5d25e85e8e43dd9e0082c0ea1ad32690299cb4ce2",
-      "metadata_link": "https://arweave.net/Gopt6WBypqi_SKLNLWIXVggwcFYig_oqUUyAp4gWbVc",
+      "metadata_link": "https://arweave.net/dU88cqMDFtC684H7rwE90oncUrEbvHiAwRGHWAER2fk",
       "onChain": true
     }
   }

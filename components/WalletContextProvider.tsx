@@ -11,7 +11,7 @@ const WalletContextProvider: FC<{children: ReactNode}> =  ({children}) => {
     const phantom = useMemo(() => new PhantomWalletAdapter(), [])
     return (
         <ConnectionProvider endpoint={url}>
-            <WalletProvider wallets={[phantom]}>
+            <WalletProvider wallets={[phantom]} autoConnect>
                 <WalletModalProvider>{children}</WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>
