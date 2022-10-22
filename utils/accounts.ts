@@ -1,26 +1,22 @@
-import { AccountInfo, Connection, PublicKey } from "@solana/web3.js"
-import { PROGRAM_ID } from "./constants"
-import * as borsh from "@project-serum/borsh"
+import { PublicKey } from "@solana/web3.js";
+import { PROGRAM_ID } from "./constants";
 
-const userStakeAccountLayout = borsh.struct([
-  borsh.bool("isInitialized"),
-  borsh.publicKey("tokenAccount"),
-  borsh.i64("stakeStartTime"),
-  borsh.i64("lastRedeem"),
-  borsh.publicKey("userPubkey"),
-  borsh.u8("state"),
-])
+import { Program } from "@project-serum/anchor";
+import { AnchorTreasureHunters } from "./anchor_treasure_hunters";
 
 export async function getStakeAccount(
-  connection: Connection,
+  program: Program<AnchorTreasureHunters>,
   user: PublicKey,
   tokenAccount: PublicKey
 ): Promise<any> {
   const [accountPubkey] = PublicKey.findProgramAddressSync(
     [user.toBuffer(), tokenAccount.toBuffer()],
     PROGRAM_ID
-  )
-  const account = await connection.getAccountInfo(accountPubkey)
-  if (!account) throw {}
-  return userStakeAccountLayout.decode(account.data)
+  );
+  const [pda] = PublicKey.findProgramAddressSync(
+    [user.toBuffer()!, tokenAccount?.toBuffer()!],
+    program?.programId!
+  );
+
+  return await program?.account.userStakeInfo.fetch(pda);
 }

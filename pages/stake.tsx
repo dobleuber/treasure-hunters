@@ -9,14 +9,9 @@ import {
   NftWithToken,
 } from "@metaplex-foundation/js";
 import {
-  Box,
-  Container,
-  Flex,
   Heading,
   VStack,
   Text,
-  Image,
-  Button,
   HStack,
 } from "@chakra-ui/react";
 

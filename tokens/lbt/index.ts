@@ -15,7 +15,9 @@ import {
 
 import * as fs from "fs";
 
+import dotenv from "dotenv"
 import { initializeKeypair } from "./initializeKeypair";
+
 
 async function createNewMint(
   connection: web3.Connection,
@@ -151,9 +153,10 @@ async function createMetadata(
 }
 
 async function main() {
+  if (!process.env.NEXT_PUBLIC_STAKE_PROGRAM_ID) throw new Error("Can't read the program id")
   const connection = new web3.Connection(web3.clusterApiUrl("devnet"));
   const user = await initializeKeypair(connection);
-  const programId = new web3.PublicKey("6kgHXUbdoV9KsWwN7esiaBGZiP52F7R2NC3D9FqjhQZB");
+  const programId = new web3.PublicKey(process.env.NEXT_PUBLIC_STAKE_PROGRAM_ID);
 
   console.log("PublicKey:", user.publicKey.toBase58());
   const [minAuth] = await web3.PublicKey.findProgramAddress([Buffer.from("mint")], programId)
